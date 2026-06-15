@@ -93,32 +93,30 @@ The study investigates how modern semantic embeddings outperform traditional ATS
 ## Repository Structure
 
 ```bash
-resume-job-matching-ml/
-│
-├── README.md
-├── requirements.txt
-├── thesis/
-│   └── Stefanova_2025_Master_Thesis.pdf
-│
-├── notebooks/
-│   ├── Semantic_Embedding_model.ipynb
-│   ├── TF_IDF_Cosine.ipynb
-│   ├── Transformer_all_MiniLM_L6_v2.ipynb
-│   ├── Transformer_sentence_t5_base.ipynb
-│   └── ...
+machine-learning-job-resume-matching/
 │
 ├── images/
-│   ├── results_table.png
-│   ├── cosine_similarity_plot.png
-│   └── architecture_diagram.png
+│   ├── ada_kaggle.JPG
+│   ├── ada_minddig.JPG
+│   ├── model_comparison.JPG
+│   ├── sentence_t5_kaggle.JPG
+│   └── sentence_t5_minddig.JPG
 │
-├── results/
-│   ├── kaggle_results.csv
-│   ├── minddig_results.csv
-│   └── evaluation_summary.csv
+├── notebooks/
+│   ├── kaggle-dataset/
+│   │   ├── ada_002_Kaggle_dataset.ipynb
+│   │   └── ...
+│   │
+│   └── minddig-dataset/
+│       ├── ada_002_MindDig_dataset.ipynb
+│       └── ...
 │
-└── data/
-    └── README_data.md
+├── thesis/
+│   └── Stefanova (2024) Machine Learning Techniques for Matching.pdf
+│
+├── README.md
+│
+└── requirements.txt
 ```
 
 ---
