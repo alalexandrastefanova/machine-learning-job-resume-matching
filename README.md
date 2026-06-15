@@ -150,9 +150,33 @@ The complete master's thesis is available in the `thesis/` folder.
 
 ## Results
 
+### Model Comparison
+
 ![Model Comparison](images/model_comparison.JPG)
 
-Comparison of semantic embedding models for resume-job matching across the Kaggle and MindDig datasets. The evaluation demonstrates the effectiveness of transformer-based sentence embeddings for candidate-job similarity matching.
+Performance comparison of multiple semantic embedding models evaluated on both the Kaggle and MindDig datasets.
+
+### Dataset-Specific Results
+
+#### Kaggle Dataset
+
+![Sentence-T5 Kaggle](images/sentence_t5_kaggle.JPG)
+
+Sentence-T5 performance on the Kaggle resume-job matching dataset.
+
+![Ada Kaggle](images/ada_kaggle.JPG)
+
+OpenAI text-embedding-ada-002 performance on the Kaggle dataset.
+
+#### MindDig Dataset
+
+![Sentence-T5 MindDig](images/sentence_t5_minddig.JPG)
+
+Sentence-T5 performance on the MindDig recruitment dataset.
+
+![Ada MindDig](images/ada_minddig.JPG)
+
+OpenAI text-embedding-ada-002 performance on the MindDig dataset.
 
 ## Citation
 
