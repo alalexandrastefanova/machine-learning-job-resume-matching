@@ -148,6 +148,12 @@ The complete master's thesis is available in the `thesis/` folder.
 
 ---
 
+## Results
+
+![Model Comparison](images/model_comparison.JPG)
+
+Comparison of semantic embedding models for resume-job matching across the Kaggle and MindDig datasets. The evaluation demonstrates the effectiveness of transformer-based sentence embeddings for candidate-job similarity matching.
+
 ## Citation
 
 ```bibtex
@@ -158,6 +164,7 @@ The complete master's thesis is available in the `thesis/` folder.
   year={2025}
 }
 ```
+
 
 ---
 
